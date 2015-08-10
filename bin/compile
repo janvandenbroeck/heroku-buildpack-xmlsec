@@ -43,3 +43,4 @@ export CFLAGS="-I${INSTALL_PATH}/include/xmlsec1"
 
 echo "-----> Installed xmlsec1"
 
+xmlsec1
