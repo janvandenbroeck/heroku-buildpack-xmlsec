@@ -6,3 +6,7 @@ echo "config_vars:"
 echo "  LD_LIBRARY_PATH: /app/.heroku/xmlsec1-1.2/lib"
 echo "default_process_types:"
 
+echo $PROFILE_PATH
+echo $PATH
+
+${BUILD_DIR}/vendor/xmlsec1/bin/xmlsec1
