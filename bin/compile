@@ -46,4 +46,6 @@ echo "-----> Installed xmlsec1"
 LD_LIBRARY_PATH="$LD_LIBRARY_PATH:vendor/xmlsec1/lib/"
 PATH="$PATH:vendor/xmlsec1/bin/"
 
-xmlsec1
+ls -l
+
+vendor/xmlsec1/bin/xmlsec1
