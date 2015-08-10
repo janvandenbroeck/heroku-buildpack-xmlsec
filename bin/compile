@@ -43,9 +43,9 @@ export CFLAGS="-I${INSTALL_PATH}/include/xmlsec1"
 
 echo "-----> Installed xmlsec1"
 
-LD_LIBRARY_PATH="$LD_LIBRARY_PATH:vendor/xmlsec1/lib/"
-PATH="$PATH:vendor/xmlsec1/bin/"
+LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/app/vendor/xmlsec1/lib/"
+PATH="$PATH:/app/vendor/xmlsec1/bin/"
 
 ls -l
 
-vendor/xmlsec1/bin/xmlsec1
+/app/vendor/xmlsec1/bin/xmlsec1
