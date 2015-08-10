@@ -48,4 +48,4 @@ PATH="$PATH:/app/vendor/xmlsec1/bin/"
 
 ls -l
 
-~/vendor/xmlsec1/bin/xmlsec1
+${BUILD_DIR}/vendor/xmlsec1/bin/xmlsec1
