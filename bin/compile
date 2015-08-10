@@ -42,10 +42,3 @@ export CFLAGS="-I${INSTALL_PATH}/include/xmlsec1"
 # finish
 
 echo "-----> Installed xmlsec1"
-
-LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/app/vendor/xmlsec1/lib/"
-PATH="$PATH:/app/vendor/xmlsec1/bin/"
-
-ls -l
-
-${BUILD_DIR}/vendor/xmlsec1/bin/xmlsec1
