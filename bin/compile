@@ -42,8 +42,3 @@ export CFLAGS="-I${INSTALL_PATH}/include/xmlsec1"
 # finish
 
 echo "-----> Installed xmlsec1"
-
-echo $PROFILE_PATH
-echo $PATH
-
-${BUILD_DIR}/vendor/xmlsec1/bin/xmlsec1
